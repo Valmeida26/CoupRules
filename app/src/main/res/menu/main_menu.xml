@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_capacoup"
+        android:title="Início" />
+    <item
+        android:id="@+id/action_resumodeturno"
+        android:title="Resumo De Turno" />
+    <item
+        android:id="@+id/action_regrasdepersonagens"
+        android:title="Regras de Personagens" />
+    <item
+        android:id="@+id/action_regrasbufaoburocrata"
+        android:title="Regras Bufão e Burocrata" />
+    <item
+        android:id="@+id/action_regrasburgesbenfeitor"
+        android:title="Regras Burguês e Benfeitor" />
+    <item
+        android:id="@+id/action_assassino"
+        android:title="Assassino" />
+    <item
+        android:id="@+id/action_benfeitor"
+        android:title="Benfeitor" />
+    <item
+        android:id="@+id/action_bufao"
+        android:title="Bufão" />
+    <item
+        android:id="@+id/action_burgues"
+        android:title="Burguês" />
+    <item
+        android:id="@+id/action_burocrata"
+        android:title="Burocrata" />
+    <item
+        android:id="@+id/action_capitao"
+        android:title="Capitão" />
+    <item
+        android:id="@+id/action_condessa"
+        android:title="Condessa" />
+    <item
+        android:id="@+id/action_duque"
+        android:title="Duque" />
+    <item
+        android:id="@+id/action_embaixador"
+        android:title="Embaixador" />
+    <item
+        android:id="@+id/action_inquisidor"
+        android:title="Inquisidor" />
+    <item
+        android:id="@+id/action_a_inquisicao"
+        android:title="Regras Inquisição" />
+</menu>
