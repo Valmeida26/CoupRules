@@ -18,9 +18,9 @@ public class AssassinoFragment extends Fragment {
         TextView textoAssassino = rootView.findViewById(R.id.textoAssassino);
         ImageView imagemAssassino = rootView.findViewById(R.id.imagemAssassino);
 
-        textoAssassino.setText("Pague 3 moedas para o Tesouro Central e tente assassinar outro jogador. Se for bem sucedido,\n" +
+        textoAssassino.setText("ASSASSINAR: Pague 3 moedas para o Tesouro Central e tente assassinar outro jogador. Se for bem sucedido,\n" +
                 "aquele jogador perde imediatamente uma inﬂuência.\n" +
-                "(Pode ser bloqueada pela Condessa)");
+                "Pode ser bloqueada pela \"Condessa\"");
 
         imagemAssassino.setImageResource(R.drawable.assassino);
 

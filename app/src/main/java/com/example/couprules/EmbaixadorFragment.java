@@ -22,12 +22,9 @@ public class EmbaixadorFragment extends Fragment {
         ImageView imagemEmbaixador = rootView.findViewById(R.id.imagemEmbaixador);
 
         // Configurando o texto e a imagem
-        textoEmbaixador.setText("Pegue duas cartas aleatórias do Baralho da Corte e junte com\n" +
-                "suas cartas ainda viradas para baixo. Em seguida, escolha\n" +
-                "e embaralhe duas destas no Baralho da Corte. Você deve\n" +
-                "continuar com o mesmo número de influências que tinha\n" +
-                "antes da ação." +
-                "Bloqueia Extorsão");
+        textoEmbaixador.setText("TROCAR: Compre 2 cartas e em seguida devolva 2 cartas para o baralho da corte\n" +
+                         "Não pode ser bloqueado\n" +
+                "\"Bloqueia Extorsão\"\n");
 
         imagemEmbaixador.setImageResource(R.drawable.embaixador);  // Certifique-se de ter a imagem "embaixador" no drawable
 

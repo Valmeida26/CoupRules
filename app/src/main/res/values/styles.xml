@@ -19,4 +19,10 @@
         <item name="android:textAlignment">center</item> <!-- Alinha o texto ao centro -->
     </style>
 
+    <!-- Estilo personalizado para o popup -->
+    <style name="CustomPopupTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@android:color/background_light</item>  <!-- Cor do texto -->
+        <item name="android:background">#03103C</item>  <!-- Cor de fundo -->
+    </style>
+
 </resources>

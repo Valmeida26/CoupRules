@@ -22,9 +22,10 @@ public class InquisitorFragment extends Fragment {
         ImageView imagemInquisidor = rootView.findViewById(R.id.imagemInquisitor);
 
         // Configurando o texto e a imagem
-        textoInquisidor.setText("O Inquisidor pode forçar um jogador a mostrar suas cartas. " +
-                "Além disso, ele pode bloquear um golpe de 'acusar' ou 'desafiar'.\n" +
-                "Bloqueia Extorsão");
+        textoInquisidor.setText("TROCAR: Compre 1 carta e em seguida devolva 1 carta para o baralho da Corte.\n" +
+                "INVESTIGAR: Escolha 1 jogador e olhe uma de suas cartas, force ou não a troca.\n" +
+                "\"Não pode ser bloqueado\".\n" +
+                "\"Bloqueia Extorsão\"");
 
         imagemInquisidor.setImageResource(R.drawable.inquisitor);  // Certifique-se de ter a imagem "inquisidor" no drawable
 

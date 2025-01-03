@@ -30,13 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu, menu);  // Adicionando o menu hamburguer
+        getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-         if (item.getItemId() == R.id.action_capacoup) {  // Novo item para Capacoup
+         if (item.getItemId() == R.id.action_capacoup) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragmentContainer, new CapacoupFragment())
                     .commit();
@@ -48,19 +48,19 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
             getSupportActionBar().setTitle("Resumo de turno");
             return true;
-        } else if (item.getItemId() == R.id.action_regrasdepersonagens) {  // Novo item para Regras de Personagens
+        } else if (item.getItemId() == R.id.action_regrasdepersonagens) {
              getSupportFragmentManager().beginTransaction()
                      .replace(R.id.fragmentContainer, new RegrasDePersonagensFragment())
                      .commit();
              getSupportActionBar().setTitle("Regras de Personagens");
              return true;
-         } else if (item.getItemId() == R.id.action_regrasbufaoburocrata) {  // Novo item para Regras de Personagens
+         } else if (item.getItemId() == R.id.action_regrasbufaoburocrata) {
              getSupportFragmentManager().beginTransaction()
                      .replace(R.id.fragmentContainer, new RegrasDeBufaoBurocrataFragment())
                      .commit();
              getSupportActionBar().setTitle("Regras do Bufão e Burocrata");
              return true;
-         }  else if (item.getItemId() == R.id.action_regrasburgesbenfeitor) {  // Novo item para Regras de Personagens
+         }  else if (item.getItemId() == R.id.action_regrasburgesbenfeitor) {
              getSupportFragmentManager().beginTransaction()
                      .replace(R.id.fragmentContainer, new RegrasDeBurgesBenfeitorFragment())
                      .commit();
@@ -78,19 +78,19 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
             getSupportActionBar().setTitle("BenFeitor");
             return true;
-        } else if (item.getItemId() == R.id.action_bufao) {  // Novo caso para Bufão
+        } else if (item.getItemId() == R.id.action_bufao) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragmentContainer, new BufaoFragment())
                     .commit();
             getSupportActionBar().setTitle("Bufão");
             return true;
-        } else if (item.getItemId() == R.id.action_burgues) {  // Novo item para Burguês
+        } else if (item.getItemId() == R.id.action_burgues) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragmentContainer, new BurguesFragment())
                     .commit();
             getSupportActionBar().setTitle("Burguês");
             return true;
-        } else if (item.getItemId() == R.id.action_burocrata) {  // Novo item para Burocrata
+        } else if (item.getItemId() == R.id.action_burocrata) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragmentContainer, new BurocrataFragment())
                     .commit();
@@ -102,35 +102,41 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
             getSupportActionBar().setTitle("Capitão");
             return true;
-        } else if (item.getItemId() == R.id.action_condessa) {  // Novo item para Condessa
+        } else if (item.getItemId() == R.id.action_condessa) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragmentContainer, new CondessaFragment())
                     .commit();
             getSupportActionBar().setTitle("Condessa");
             return true;
-        } else if (item.getItemId() == R.id.action_duque) {  // Novo item para Duque
+        } else if (item.getItemId() == R.id.action_duque) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragmentContainer, new DuqueFragment())
                     .commit();
             getSupportActionBar().setTitle("Duque");
             return true;
-        } else if (item.getItemId() == R.id.action_embaixador) {  // Novo item para Embaixador
+        } else if (item.getItemId() == R.id.action_embaixador) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragmentContainer, new EmbaixadorFragment())
                     .commit();
             getSupportActionBar().setTitle("Embaixador");
             return true;
-        } else if (item.getItemId() == R.id.action_inquisidor) {  // Novo item para Inquisidor
+        } else if (item.getItemId() == R.id.action_inquisidor) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragmentContainer, new InquisitorFragment())
                     .commit();
             getSupportActionBar().setTitle("Inquisidor");
             return true;
-        } else if (item.getItemId() == R.id.action_a_inquisicao) {  // Novo item para Inquisidor
+        } else if (item.getItemId() == R.id.action_a_inquisicao) {
              getSupportFragmentManager().beginTransaction()
                      .replace(R.id.fragmentContainer, new RegrasDeInquisicaoFragment())
                      .commit();
              getSupportActionBar().setTitle("Regras Inquisição");
+             return true;
+         }  else if (item.getItemId() == R.id.action_a_reforma) {
+             getSupportFragmentManager().beginTransaction()
+                     .replace(R.id.fragmentContainer, new ReformaFragment())
+                     .commit();
+             getSupportActionBar().setTitle("Regras Reforma");
              return true;
          } else {
             return super.onOptionsItemSelected(item);

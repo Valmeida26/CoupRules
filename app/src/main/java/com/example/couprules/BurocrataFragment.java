@@ -22,7 +22,8 @@ public class BurocrataFragment extends Fragment {
         ImageView imagemBurocrata = rootView.findViewById(R.id.imagemBurocrata);
 
         // Configurando o texto e a imagem
-        textoBurocrata.setText("Tire 3 moedas do Tesouro, porém você deve dar uma dessas moedas para um outro jogador, ficando assim com apenas 2 moedas.");
+        textoBurocrata.setText("COOPERAÇÃO: Pegue 3 moedas do Tesouro Central e entregue 1 moeda para um adversário.\n" +
+                "Bloqueia ajuda externa.");
 
         imagemBurocrata.setImageResource(R.drawable.burocrata);  // Certifique-se de ter a imagem "burocrata" no drawable
 

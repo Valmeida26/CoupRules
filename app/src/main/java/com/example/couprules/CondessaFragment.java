@@ -22,9 +22,8 @@ public class CondessaFragment extends Fragment {
         ImageView imagemCondessa = rootView.findViewById(R.id.imagemCondessa);
 
         // Configurando o texto e a imagem
-        textoCondessa.setText("A Condessa pode bloquear um Assassino ou um Capitão. Se o jogador " +
-                "realizar um golpe contra ela, a ação é anulada.\n" +
-                "Bloqueia Assassinato");
+        textoCondessa.setText("BLOQUEAR: A Condessa pode bloquear um \"Assassino\".\nAs moedas pagas pelo assassino \"não são devolvidas.\"\n" +
+                "Não pode ser bloqueado");
 
         imagemCondessa.setImageResource(R.drawable.condessa);  // Certifique-se de ter a imagem "condessa" no drawable
 

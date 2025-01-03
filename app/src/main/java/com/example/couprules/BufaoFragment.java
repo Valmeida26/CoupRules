@@ -19,11 +19,11 @@ public class BufaoFragment extends Fragment {
         TextView textoBufao = rootView.findViewById(R.id.textoBufao);
         ImageView imagemBufao = rootView.findViewById(R.id.imagemBufao);
 
-        textoBufao.setText("Um jogador que reivindica o papel do Bufão pode causar Desordem, tomando uma carta do baralho " +
-                "da Corte e um cartão do alvo (outro jogador de sua escolha). O jogador pode alterar " +
-                "secretamente uma de suas cartas entre uma das duas cartas recebidas. O jogador retorna " +
-                "uma carta para o baralho da Corte e uma carta para o seu alvo (o jogador ao qual havia escolhido).\n" +
-                "Pode ser bloqueado pelo capitão");
+        textoBufao.setText("DESORDEM: Primeiro pegue uma carta aleatória do baralho da Corte e uma das cartas de um adversário. \"Escolhida pelo adversário.\"\n" +
+                "Você pode trocar uma dessas cartas por uma de suas cartas, depois devolva uma carta para o baralho da Corte e uma para o adversário escolhido.\n" +
+                "BLOQUEIA DESORDEM: O jogador alvo da Desordem, pode declatar possuir o \"Bufão\" e bloquear a Desordem.\n" +
+                "\"O jogador que usar o Bufão ainda pode pegar e trocar uma carta do baralho da Corte.\"\n" +
+                "Bloqueia extorsão.\n");
 
         imagemBufao.setImageResource(R.drawable.bufao);  // Certifique-se de ter uma imagem chamada bufao
 

@@ -22,7 +22,7 @@ public class DuqueFragment extends Fragment {
         ImageView imagemDuque = rootView.findViewById(R.id.imagemDuque);
 
         // Configurando o texto e a imagem
-        textoDuque.setText("O Duque pode pegar 3 moedas do banco ou bloquear um golpe de 'roubo' feito pelo Capitão.\n" +
+        textoDuque.setText("TAXAS: O Duque pode pegar 3 moedas do tesouro central.\n\"Não pode ser bloqueado\"\n" +
                 "Bloqueia Ajuda Externa");
 
         imagemDuque.setImageResource(R.drawable.duque);  // Certifique-se de ter a imagem "duque" no drawable

@@ -21,8 +21,8 @@ public class CapitaoFragment extends Fragment {
         ImageView imagemCapitao = rootView.findViewById(R.id.imagemCapitao);
 
         // Configurar o texto e a imagem
-        textoCapitao.setText("Pegue duas moedas de outro jogador, Se ele só tiver uma moeda, pegue " +
-                "apenas uma. (Pode ser bloqueada pelo Embaixador/Inquisidor ou Capitão)\n" +
+        textoCapitao.setText("ESTOQUIR: Pegue duas moedas de outro jogador, Se ele só tiver uma moeda, pegue " +
+                "apenas uma. \n\"Pode ser bloqueada pelo Embaixador/Inquisidor ou Capitão.\"\n" +
                 "Bloqueia Extorsão");
         imagemCapitao.setImageResource(R.drawable.capitao); // Assumindo que você tenha a imagem 'capitao' na pasta drawable
 

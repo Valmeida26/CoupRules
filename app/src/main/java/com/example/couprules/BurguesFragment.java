@@ -22,8 +22,8 @@ public class BurguesFragment extends Fragment {
         ImageView imagemBurgues = rootView.findViewById(R.id.imagemBurgues);
 
         // Configurando o texto e a imagem
-        textoBurgues.setText("Pegue 4 moedas. Outros jogadores também podem declarar influenciar o Burguês. " +
-                "Após todas as declarações serem feitas, as contestações (caso existam) são resolvidas " +
+        textoBurgues.setText("DIVIDENDOS: Pegue 4 moedas. Outros jogadores também podem declarar influenciar o \"Burguês\". " +
+                "Após todas as declarações serem feitas, as contestações \"caso existam\" são resolvidas " +
                 "em sentido horário a partir do jogador ativo. O jogador ativo dá 1 moeda para cada declarante " +
                 "que não foi contestado com sucesso.");
 

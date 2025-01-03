@@ -19,8 +19,9 @@ public class BenfeitorFragment extends Fragment {
         TextView textoBenfeitor = rootView.findViewById(R.id.textoBenfeitor);
         ImageView imagemBenfeitor = rootView.findViewById(R.id.imagemBenfeitor);
 
-        textoBenfeitor.setText("Pegue 3 moedas do jogador com mais moedas e as dê para o jogador com" +
-                " menos moedas. Em caso de empate, o jogador ativo decide quem é o alvo.");
+        textoBenfeitor.setText("REDISTRIBUIÇÃO: Pegue 3 moedas do jogador com mais moedas e as dê para o jogador com" +
+                " menos moedas. Em caso de empate, o jogador ativo decide quem é o alvo.\n" +
+                "BLOQUEIA REDISTRIBUIÇÃO: Qualquer jogador que declarar ter o \"Benfeitor\" pode intervir em um jogador tentando redistribuir.");
 
         imagemBenfeitor.setImageResource(R.drawable.benfeitor);
 
